@@ -46,6 +46,7 @@ pipeline {
                     sh "sudo docker run --rm -v ${VOLUME} ${IMAGE} 'rm -rf build dist'"
                 }
             }
+        }
         
         
 /*      stage('Deploy Image') {
